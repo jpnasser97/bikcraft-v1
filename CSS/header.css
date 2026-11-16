@@ -1,0 +1,16 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3.75rem;
+  justify-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 1.875rem;
+}
+
+.menu a {
+  background-color: #fff;
+}

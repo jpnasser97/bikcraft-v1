@@ -1,0 +1,45 @@
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.descricao {
+  display: grid;
+  gap: 1.25rem;
+  align-content: center;
+  justify-items: end;
+  text-align: right;
+  padding: 2.5rem;
+  background-color: #fff;
+}
+.descricao a {
+  background-color: #ee2211;
+  display: block;
+  color: #fff;
+}
+
+.intro h2 {
+  font-size: 4rem;
+  color: #c6c6c6;
+  text-transform: uppercase;
+  text-align: right;
+  align-self: center;
+  padding: 2.5rem;
+}
+
+.vantagens {
+  display: grid;
+  gap: 2.5rem;
+  padding: 2.5rem;
+  background-color: #fff;
+}
+
+.vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.3125rem 0.625rem;
+}
+
+.vantagens-item p {
+  grid-column: 2;
+}
