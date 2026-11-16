@@ -25,6 +25,7 @@
   text-align: right;
   align-self: center;
   padding: 2.5rem;
+  background-image: url(../img/onda.svg);
 }
 
 .vantagens {
@@ -38,8 +39,18 @@
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 0.3125rem 0.625rem;
+  padding: 0.125rem;
+  border: #fff 0.125rem solid;
 }
 
 .vantagens-item p {
   grid-column: 2;
+}
+
+.descricao a:hover {
+  background-color: #bb2211;
+}
+
+.vantagens-item:hover {
+  border-left: #ee2211 0.125rem solid;
 }
