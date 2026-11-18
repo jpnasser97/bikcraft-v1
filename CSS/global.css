@@ -1,7 +1,16 @@
+:root {
+  --fundo-bg: #f7f7f7;
+  --cor-bg-0: #ffffff;
+  --cor-tex-0: #000000;
+  --cor-text-1: #c6c6c6;
+  --cor-cont-0: #ee2211;
+  --cor-cont-1: #bb2211;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 auto;
-  background-color: #f7f7f7;
+  background-color: var(--fundo-bg);
   display: grid;
   gap: 3.75rem;
   justify-items: center;
@@ -29,7 +38,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: var(--cor-tex-0);
   padding: 0.9375rem 1.875rem;
   text-transform: uppercase;
   border-radius: 0.25rem;
@@ -38,7 +47,7 @@ a {
 
 p {
   font-size: 1.25rem;
-  color: #000;
+  color: var(--cor-tex-0);
 }
 
 img {

@@ -10,17 +10,17 @@
   justify-items: end;
   text-align: right;
   padding: 2.5rem;
-  background-color: #fff;
+  background-color: var(--cor-bg-0);
 }
 .descricao a {
-  background-color: #ee2211;
+  background-color: var(--cor-cont-0);
   display: block;
-  color: #fff;
+  color: var(--cor-bg-0);
 }
 
 .intro h2 {
   font-size: 4rem;
-  color: #c6c6c6;
+  color: var(--cor-text-1);
   text-transform: uppercase;
   text-align: right;
   align-self: center;
@@ -32,7 +32,7 @@
   display: grid;
   gap: 2.5rem;
   padding: 2.5rem;
-  background-color: #fff;
+  background-color: var(--cor-bg-0);
 }
 
 .vantagens-item {
@@ -40,7 +40,7 @@
   grid-template-columns: auto 1fr;
   gap: 0.3125rem 0.625rem;
   padding: 0.125rem;
-  border: #fff 0.125rem solid;
+  border: var(--cor-bg-0) 0.125rem solid;
 }
 
 .vantagens-item p {
@@ -48,9 +48,9 @@
 }
 
 .descricao a:hover {
-  background-color: #bb2211;
+  background-color: var(--cor-cont-1);
 }
 
 .vantagens-item:hover {
-  border-left: #ee2211 0.125rem solid;
+  border-left: var(--cor-cont-0) 0.125rem solid;
 }
