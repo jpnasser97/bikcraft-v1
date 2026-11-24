@@ -12,10 +12,16 @@
   padding: 2.5rem;
   background-color: var(--cor-bg-0);
 }
+
+.intro h1,
+h3 {
+  color: var(--cor-text-0);
+}
+
 .descricao a {
   background-color: var(--cor-cont-0);
   display: block;
-  color: var(--cor-bg-0);
+  color: #ffffff;
 }
 
 .intro h2 {
@@ -53,4 +59,10 @@
 
 .vantagens-item:hover {
   border-left: var(--cor-cont-0) 0.125rem solid;
+}
+
+@media (prefers-color-scheme: dark) {
+  .intro h2 {
+    background-image: url(../img/onda-dark.svg);
+  }
 }
