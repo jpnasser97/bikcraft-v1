@@ -1,10 +1,21 @@
 :root {
   --fundo-bg: #f7f7f7;
   --cor-bg-0: #ffffff;
-  --cor-tex-0: #000000;
+  --cor-text-0: #000000;
   --cor-text-1: #c6c6c6;
   --cor-cont-0: #ee2211;
   --cor-cont-1: #bb2211;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundo-bg: #111111;
+    --cor-bg-0: #222222;
+    --cor-text-0: #ffffff;
+    --cor-text-1: #555555;
+    --cor-cont-0: #ee2211;
+    --cor-cont-1: #bb2211;
+  }
 }
 
 body {
@@ -38,7 +49,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--cor-tex-0);
+  color: var(--cor-text-0);
   padding: 0.9375rem 1.875rem;
   text-transform: uppercase;
   border-radius: 0.25rem;
@@ -47,7 +58,7 @@ a {
 
 p {
   font-size: 1.25rem;
-  color: var(--cor-tex-0);
+  color: var(--cor-text-0);
 }
 
 img {
